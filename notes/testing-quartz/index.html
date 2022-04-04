@@ -1,8 +1,8 @@
 <!doctype html><html lang=en>
 <head>
 <meta charset=utf-8>
-<meta name=description content="If you&rsquo;d like to preview what your Quartz site looks like before deploying it to the internet, here&rsquo;s exactly how to do that!">
-<title>Preview Changes</title>
+<meta name=description content="Questions Would this be something I could use? Does it make sense to use hugo and would naming my file with hypen work?">
+<title>testing-quartz</title>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <link rel="shortcut icon" type=image/png href=/icon.png>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&family=Fira+Code:wght@400;700&display=swap" rel=stylesheet>
@@ -39,7 +39,7 @@
 </div>
 </header>
 <article>
-<h1>Preview Changes</h1>
+<h1>testing-quartz</h1>
 <p class=meta>
 Last updated April 3, 2022
 </p>
@@ -49,64 +49,13 @@ Last updated April 3, 2022
 <h3>Table of Contents</h3>
 <nav id=TableOfContents>
 <ol>
-<li><a href=#install-hugo-obsidian>Install <code>hugo-obsidian</code></a></li>
-<li><a href=#installing-hugo>Installing Hugo</a></li>
+<li><a href=#would-this-be-something-i-could-use>Would this be something I could use?</a></li>
 </ol>
 </nav>
 </aside>
-<p>If you&rsquo;d like to preview what your Quartz site looks like before deploying it to the internet, here&rsquo;s exactly how to do that!</p>
-<p>Note that both of these steps need to be completed.</p>
-<h2 id=install-hugo-obsidian>Install <code>hugo-obsidian</code></h2>
-<p>This step will generate the list of backlinks for Hugo to parse. Ensure you have
-<a href=https://golang.org/doc/install rel=noopener>Go</a> (>= 1.16) installed.</p>
-<div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt>1
-</span><span class=lnt>2
-</span><span class=lnt>3
-</span><span class=lnt>4
-</span><span class=lnt>5
-</span><span class=lnt>6
-</span><span class=lnt>7
-</span><span class=lnt>8
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=c1># Install and link `hugo-obsidian` locally</span>
-$ go install github.com/jackyzha0/hugo-obsidian@latest
-
-<span class=c1># Navigate to your local Quartz folder</span>
-$ <span class=nb>cd</span> &lt;location-of-your-local-quartz&gt;
-
-<span class=c1># Scrape all links in your Quartz folder and generate info for Quartz</span>
-$ hugo-obsidian -input<span class=o>=</span>content -output<span class=o>=</span>assets/indices -index -root<span class=o>=</span>.
-</code></pre></td></tr></table>
-</div>
-</div><p>If you are running into an error saying that <code>command not found: hugo-obsidian</code>, make sure you set your <code>GOPATH</code> correctly! This will allow your terminal to correctly recognize hugo-obsidian as an executable.</p>
-<p>Afterwards, start the Hugo server as shown above and your local backlinks and interactive graph should be populated!</p>
-<h2 id=installing-hugo>Installing Hugo</h2>
-<p>Hugo is the static site generator that powers Quartz.
-<a href=https://gohugo.io/getting-started/installing/ rel=noopener>Install Hugo with &ldquo;extended&rdquo; Sass/SCSS version</a> first. Then,</p>
-<div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt>1
-</span><span class=lnt>2
-</span><span class=lnt>3
-</span><span class=lnt>4
-</span><span class=lnt>5
-</span><span class=lnt>6
-</span><span class=lnt>7
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback># Navigate to your local Quartz folder
-$ cd &lt;location-of-your-local-quartz&gt;
-
-# Start local server
-$ hugo server
-
-# View your site in a browser at http://localhost:1313/
-</code></pre></td></tr></table>
-</div>
-</div>
+<h1 id=questions>Questions</h1>
+<h2 id=would-this-be-something-i-could-use>Would this be something I could use?</h2>
+<p>Does it make sense to use hugo and would naming my file with hypen work?</p>
 </article>
 <hr>
 <div class=page-end>
@@ -114,7 +63,7 @@ $ hugo server
 <h3>Backlinks</h3>
 <ul class=backlinks>
 <li>
-<a href=/quartz/notes/editing>Editing Content in Quartz</a>
+No backlinks found
 </li>
 </ul>
 </div>
@@ -124,7 +73,7 @@ $ hugo server
 <div id=graph-container></div>
 <style>:root{--g-node:var(--secondary);--g-node-active:var(--primary);--g-node-inactive:var(--visited);--g-link:var(--outlinegray);--g-link-active:#5a7282}</style>
 <script src=https://kodonoboken.github.io/quartz/js/graph.27e8521c25c27c79dea35f434c486167.js></script>
-<script>drawGraph("https://kodonoboken.github.io/quartz/notes/preview-changes","https://kodonoboken.github.io/quartz",[{"/moc":"#4388cc"}],-1,!0,!1,!0)</script>
+<script>drawGraph("https://kodonoboken.github.io/quartz/notes/testing-quartz","https://kodonoboken.github.io/quartz",[{"/moc":"#4388cc"}],-1,!0,!1,!0)</script>
 </div>
 </div>
 <div id=contact_buttons>
